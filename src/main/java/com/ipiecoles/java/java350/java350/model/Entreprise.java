@@ -1,4 +1,4 @@
-package com.ipiecoles.java.java350.model;
+package com.ipiecoles.java.java350.java350.model;
 
 import java.time.LocalDate;
 import java.util.*;

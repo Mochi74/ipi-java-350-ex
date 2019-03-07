@@ -1,6 +1,6 @@
-package com.ipiecoles.java.java350.repository;
+package com.ipiecoles.java.java350.java350.repository;
 
-import com.ipiecoles.java.java350.model.Employe;
+import com.ipiecoles.java.java350.java350.model.Employe;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
