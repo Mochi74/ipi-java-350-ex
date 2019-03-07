@@ -70,9 +70,9 @@ public class EmployeTest {
 
     @ParameterizedTest(name = "Performance {0} Matricule {1} NbAnnee {2} tempsPartiel {3} donne Prime {4}")
     @CsvSource({
-            "1,'M00231',0,1.0, 1000.0",
-            "1,'M00231',2,1.0, 1500.0",
-            "1,'M00231',0,1.0, 1000.1",
+            "1,'M00231',0,1.0, 1700.0",
+            "1,'M00231',2,1.0, 1900.0",
+            "1,'M00231',0,1.0, 1700.0",
             "1,'M00231',2,1.0, 1900.0"
             })
     public void testGetPrimeAnnuelle(Integer performance, String matricule, Long nbYearsAnciennte,Double tempsPartiel, Double primeAnnuelle){
